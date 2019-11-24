@@ -1,30 +1,39 @@
 ##### adjust for covariates first #####
+library(dplyr)
+library(data.table)
 ## For each tissue, normalized gene expression data was adjusted for covariates such as 
 # gender, 
 # sequencing platform, 
 # the top 3 principal components from genotype data 
 # and top PEER Factors. 
 # the number of PEER Factors used was determined by sample size: 15 for n < 150, 30 for n between 150 and 250, and 35 for n > 250 Covariate data was provided by GTEx.
-
+# e. g. Rscript --vanilla adjust_expression_gtex8.R chr_idx
 
 ### load expr ###
 options(stringsAsFactors=F)
+# arguments
+args = commandArgs(trailingOnly=TRUE)
+task_index = as.numeric(args[1]) ## a file contains task index
+
+
 ###### decide which tissue to be predicted ######
-for(chr in 16:22){
-	glist = dir(paste0("/ysm-gpfs/pi/zhao/from_louise/yh367/GTEX/cis_snp_by_gene/chr", chr));
+for(chr in task_index) {
+#for(chr in 16:22){
+	glist = dir(paste0("/home/fas/radev/zy92/scratch60/GTEX/expr_gtex1/chr", chr));
 	bgt = Sys.time()
 	for(k in 1:length(glist)){
+        print(paste0("INFO: gene", k ))
 		tryCatch({
 			g = glist[k];
-			Yt = dir(paste0("/ysm-gpfs/pi/zhao/from_louise/yh367/GTEX/expr_gtex1/chr", chr, "/", g, "/"))
+			Yt = dir(paste0("/gpfs/loomis/project/radev/zy92/utmost_update/GTEX/expr_gtex1/chr", chr, "/", g, "/"))
 			
-			dir.create(paste0("/ysm-gpfs/pi/zhao/from_louise/yh367/GTEX/adjusted_expr1/chr", chr), showWarnings = FALSE)
-			dir.create(paste0("/ysm-gpfs/pi/zhao/from_louise/yh367/GTEX/adjusted_expr1/chr", chr, "/", g), showWarnings = FALSE)
-			setwd(paste0("/ysm-gpfs/pi/zhao/from_louise/yh367/GTEX/adjusted_expr1/chr", chr, "/", g))
+			dir.create(paste0("/gpfs/loomis/project/radev/zy92/utmost_update/GTEX/adjusted_expr1/chr", chr), showWarnings = FALSE)
+			dir.create(paste0("/gpfs/loomis/project/radev/zy92/utmost_update/GTEX/adjusted_expr1/chr", chr, "/", g), showWarnings = FALSE)
+			setwd(paste0("/gpfs/loomis/project/radev/zy92/utmost_update/GTEX/adjusted_expr1/chr", chr, "/", g))
 			## expr files ##
 			Y = list()
 			for(t in 1:length(Yt)){
-				Y[[t]] = read.table(paste0("/ysm-gpfs/pi/zhao/from_louise/yh367/GTEX/expr_gtex1/chr", chr, "/", g, "/", Yt[t]), header=F)
+				Y[[t]] = read.table(paste0("/gpfs/loomis/project/radev/zy92/utmost_update/GTEX/adjusted_expr1/chr", chr, "/", g, "/", Yt[t]), header=F)
 			}
 			ssize1 = unlist(lapply(Y, nrow))
 			T_num = length(Yt)
@@ -32,12 +41,12 @@ for(chr in 16:22){
 			helper <- function(x){
 				unlist(strsplit(x, '-'))[2]
 			}
-			cov_fl = list.files("/ysm-gpfs/pi/zhao/from_louise/jw2372/GTEx/GTEx_Analysis_v6p_eQTL_covariates/")
-			idf = matrix(unlist(strsplit(cov_fl, "_Analysis")), ncol = 2, byrow = T)[,1]
+			cov_fl = list.files("/ysm-gpfs/pi/zhao-data/zy92/GTEx_V8/GTEx_Analysis_v8_eQTL_covariates/")
+			idf = matrix(unlist(strsplit(cov_fl, "\\."))[1], ncol = 4, byrow = T)[,1]
 			covar = list()
 			for(t in 1:length(Yt)){
 				itmp = cov_fl[which(idf==Yt[t])]
-				covar[[t]] = read.table(paste0("/ysm-gpfs/pi/zhao/from_louise/jw2372/GTEx/GTEx_Analysis_v6p_eQTL_covariates/", itmp), header=F)
+				covar[[t]] = read.table(paste0("/ysm-gpfs/pi/zhao-data/zy92/GTEx_V8/GTEx_Analysis_v8_eQTL_covariates/", itmp), header=F)
 				tmp1 = sapply(Y[[t]][,1], helper)
 				tmp2 = sapply(covar[[t]][1,-1], helper)
 				ss_tmp = nrow(Y[[t]])

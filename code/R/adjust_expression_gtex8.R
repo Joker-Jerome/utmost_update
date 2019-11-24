@@ -7,13 +7,18 @@ library(data.table)
 # the top 3 principal components from genotype data 
 # and top PEER Factors. 
 # the number of PEER Factors used was determined by sample size: 15 for n < 150, 30 for n between 150 and 250, and 35 for n > 250 Covariate data was provided by GTEx.
-
+# e. g. Rscript --vanilla adjust_expression_gtex8.R chr_idx
 
 ### load expr ###
 options(stringsAsFactors=F)
+# arguments
+args = commandArgs(trailingOnly=TRUE)
+task_index = as.numeric(args[1]) ## a file contains task index
+
+
 ###### decide which tissue to be predicted ######
-for(chr in 16:22){
-for(chr in 16:22){
+for(chr in task_index) {
+#for(chr in 16:22){
 	glist = dir(paste0("/home/fas/radev/zy92/scratch60/GTEX/expr_gtex1/chr", chr));
 	bgt = Sys.time()
 	for(k in 1:length(glist)){
