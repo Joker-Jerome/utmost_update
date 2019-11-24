@@ -25,7 +25,7 @@ for(chr in task_index) {
         print(paste0("INFO: gene", k ))
 		tryCatch({
 			g = glist[k];
-			Yt = dir(paste0("/gpfs/loomis/project/radev/zy92/utmost_update/GTEX/expr_gtex1/chr", chr, "/", g, "/"))
+			Yt = dir(paste0("/home/fas/radev/zy92/scratch60/GTEX/expr_gtex1/chr", chr, "/", g, "/"))
 			
 			dir.create(paste0("/gpfs/loomis/project/radev/zy92/utmost_update/GTEX/adjusted_expr1/chr", chr), showWarnings = FALSE)
 			dir.create(paste0("/gpfs/loomis/project/radev/zy92/utmost_update/GTEX/adjusted_expr1/chr", chr, "/", g), showWarnings = FALSE)
