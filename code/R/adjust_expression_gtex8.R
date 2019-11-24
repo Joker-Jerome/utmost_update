@@ -19,21 +19,21 @@ task_index = as.numeric(args[1]) ## a file contains task index
 ###### decide which tissue to be predicted ######
 for(chr in task_index) {
 #for(chr in 16:22){
-	glist = dir(paste0("/home/fas/radev/zy92/scratch60/GTEX/expr_gtex1/chr", chr));
+	glist = dir(paste0("/gpfs/loomis/scratch60/radev/zy92/GTEX/expr_gtex1/chr", chr));
 	bgt = Sys.time()
 	for(k in 1:length(glist)){
         print(paste0("INFO: gene", k ))
 		tryCatch({
 			g = glist[k];
-			Yt = dir(paste0("/home/fas/radev/zy92/scratch60/GTEX/expr_gtex1/chr", chr, "/", g, "/"))
+			Yt = dir(paste0("/gpfs/loomis/scratch60/radev/zy92/GTEX/expr_gtex1/chr", chr, "/", g, "/"))
 			
-			dir.create(paste0("/gpfs/loomis/project/radev/zy92/utmost_update/GTEX/adjusted_expr1/chr", chr), showWarnings = FALSE)
-			dir.create(paste0("/gpfs/loomis/project/radev/zy92/utmost_update/GTEX/adjusted_expr1/chr", chr, "/", g), showWarnings = FALSE)
-			setwd(paste0("/gpfs/loomis/project/radev/zy92/utmost_update/GTEX/adjusted_expr1/chr", chr, "/", g))
+			dir.create(paste0("/gpfs/loomis/scratch60/radev/zy92/GTEX/adjusted_expr1/chr", chr), showWarnings = FALSE)
+			dir.create(paste0("/gpfs/loomis/scratch60/radev/zy92/GTEX/adjusted_expr1/chr", chr, "/", g), showWarnings = FALSE)
+			setwd(paste0("/gpfs/loomis/scratch60/radev/zy92/GTEX/adjusted_expr1/chr", chr, "/", g))
 			## expr files ##
 			Y = list()
 			for(t in 1:length(Yt)){
-				Y[[t]] = read.table(paste0("/gpfs/loomis/project/radev/zy92/utmost_update/GTEX/adjusted_expr1/chr", chr, "/", g, "/", Yt[t]), header=F)
+				Y[[t]] = read.table(paste0("/gpfs/loomis/scratch60/radev/zy92/GTEX/adjusted_expr1/chr", chr, "/", g, "/", Yt[t]), header=F)
 			}
 			ssize1 = unlist(lapply(Y, nrow))
 			T_num = length(Yt)
