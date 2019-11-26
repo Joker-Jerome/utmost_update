@@ -1,7 +1,6 @@
 ##### adjust for covariates first #####
 suppressPackageStartupMessages(library(dplyr))
 suppressPackageStartupMessages(library(data.table))
-suppressPackageStartupMessages(library(fastmatch))
 ## For each tissue, normalized gene expression data was adjusted for covariates such as 
 # gender, 
 # sequencing platform, 
@@ -15,8 +14,8 @@ suppressPackageStartupMessages(library(fastmatch))
 options(stringsAsFactors=F)
 # arguments
 args = commandArgs(trailingOnly=TRUE)
-chr_index = as.numeric(args[1]) ## chr index
-task_idx = as.numeric(args[2]) ## task index 10 sub jobs for each chr
+task_index = as.numeric(args[1]) ## a file contains task index
+
 
 ###### decide which tissue to be predicted ######
 
@@ -36,7 +35,7 @@ for (i in 1:length(cov_fl)){
 }
 
 ### load expression and adjusting the covariates ###
-for (chr in chr_index) {
+for (chr in task_index) {
 	glist = dir(paste0("/gpfs/loomis/scratch60/radev/zy92/GTEX/expr_gtex1/chr", chr))
 	bgt = Sys.time()
 	for(k in 1:length(glist)) {
@@ -55,9 +54,7 @@ for (chr in chr_index) {
 			## expr files ##
 			Y = list()
 			for(t in 1:length(Yt)){
-				Y[[t]] = as.data.frame(fread(paste0("/gpfs/loomis/scratch60/radev/zy92/GTEX/expr_gtex1/chr", chr, "/", g, "/", Yt[t]), header=F, sep = " "))
-			}
-                #Y[[t]] = read.table(paste0("/gpfs/loomis/scratch60/radev/zy92/GTEX/expr_gtex1/chr", chr, "/", g, "/", Yt[t]), header=F, sep = " ")
+				Y[[t]] = read.table(paste0("/gpfs/loomis/scratch60/radev/zy92/GTEX/expr_gtex1/chr", chr, "/", g, "/", Yt[t]), header=F, sep = " ")
 			}
 			ssize1 = unlist(lapply(Y, nrow))
 			T_num = length(Yt)
@@ -70,7 +67,7 @@ for (chr in chr_index) {
 				tmp2 = sapply(covar[[t]][1,-1], helper)
 				ss_tmp = nrow(Y[[t]])
 				cs_tmp = ncol(covar[[t]])-1
-                idx1 = fmatch(tmp2, tmp1)
+                idx1 = match(tmp2, tmp1)
                 tofactor = c()
                 # check the consistency 
 				if(sum(tmp2 == tmp1[idx1])==cs_tmp){
@@ -133,15 +130,17 @@ for (chr in chr_index) {
 					}
 				}
                 Y[[t]] <- Y[[t]][idx1, ]
+                #print(paste0("dim y :", nrow(Y[[t]])))
+                #print(paste0("dim x :", nrow(X)))
 				X = data.frame(y=Y[[t]][,2],X)
 				adj_expr = resid(lm(y~., data=X))
+                #print(adj_expr)
 				write.table(cbind(Y[[t]][,1], adj_expr), paste0(Yt_tissue[t], ".adj_expr"), quote=F, row.names=F, col.names=F)
 			}
 			ssize2 = unlist(lapply(covar, ncol)) - 1
 			#print(k)
-		}, error=function(e){
-            cat("ERROR from TryCatch Block:",conditionMessage(e), "\n")
-        }
+		}, error=function(e)
+        {cat("ERROR from TryCatch Block:",conditionMessage(e), "\n")}
         )
 	}
 	print(Sys.time()-bgt)
