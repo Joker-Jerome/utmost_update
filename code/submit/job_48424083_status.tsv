@@ -1,0 +1,2 @@
+3	0	p02r09n23.farnam.hpc.yale.internal	2019-11-26 12:50:48	2019-11-26 13:40:26	2978.06	Rscript --vanilla ../R/adjust_expression_gtex8.R 4
+2	0	p02r09n23.farnam.hpc.yale.internal	2019-11-26 12:50:48	2019-11-26 13:50:25	3577.09	Rscript --vanilla ../R/adjust_expression_gtex8.R 3
