@@ -39,7 +39,7 @@ for (i in 1:length(cov_fl)){
 for (chr in chr_index) {
 	glist = dir(paste0("/gpfs/loomis/scratch60/radev/zy92/GTEX/expr_gtex1/chr", chr))
 	bgt = Sys.time()
-    subjob_idx <- 
+    #subjob_idx <- (length(glist)//10 * (task_idx-1)+1) : min((length(glist)//10 )* (task_idx, length(glist))
 	for (k in 1:length(glist)) {
         # monitoring process
         if (k %% 50 == 0 ) {
