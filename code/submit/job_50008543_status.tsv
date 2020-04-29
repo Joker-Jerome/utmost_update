@@ -1,0 +1,11 @@
+2	1	bigmem03.grace.hpc.yale.internal	2020-02-13 10:59:36	2020-02-13 10:59:36	0.32	Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 3
+4	1	bigmem03.grace.hpc.yale.internal	2020-02-13 10:59:36	2020-02-13 10:59:36	0.28	Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 5
+1	1	bigmem03.grace.hpc.yale.internal	2020-02-13 10:59:35	2020-02-13 10:59:36	1.04	Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 2
+0	1	bigmem03.grace.hpc.yale.internal	2020-02-13 10:59:35	2020-02-13 10:59:36	1.10	Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 1
+10	1	bigmem03.grace.hpc.yale.internal	2020-02-13 10:59:35	2020-02-13 10:59:36	0.91	Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 11
+8	1	bigmem03.grace.hpc.yale.internal	2020-02-13 10:59:35	2020-02-13 10:59:36	0.88	Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 9
+9	1	bigmem03.grace.hpc.yale.internal	2020-02-13 10:59:35	2020-02-13 10:59:36	0.95	Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 10
+5	1	bigmem03.grace.hpc.yale.internal	2020-02-13 10:59:36	2020-02-13 10:59:36	0.28	Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 6
+3	1	bigmem03.grace.hpc.yale.internal	2020-02-13 10:59:36	2020-02-13 10:59:36	0.29	Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 4
+6	1	bigmem03.grace.hpc.yale.internal	2020-02-13 10:59:36	2020-02-13 10:59:36	0.28	Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 7
+7	1	bigmem03.grace.hpc.yale.internal	2020-02-13 10:59:36	2020-02-13 10:59:36	0.28	Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 8

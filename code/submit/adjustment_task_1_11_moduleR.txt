@@ -1,0 +1,11 @@
+module load R; Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 1
+module load R; Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 2
+module load R; Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 3
+module load R; Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 4
+module load R; Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 5
+module load R; Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 6
+module load R; Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 7
+module load R; Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 8
+module load R; Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 9
+module load R; Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 10
+module load R; Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 11

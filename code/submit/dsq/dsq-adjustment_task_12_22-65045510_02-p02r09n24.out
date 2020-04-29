@@ -1,0 +1,1115 @@
+
+The following have been reloaded with a version change:
+  1) GDAL/2.2.3-foss-2016b => GDAL/2.1.1-foss-2016b
+  2) HDF5/1.10.1-foss-2016b-serial => HDF5/1.8.18-foss-2016b
+  3) HarfBuzz/1.4.3-foss-2016b => HarfBuzz/1.3.1-foss-2016b
+  4) R/3.5.0-foss-2016b-avx2 => R/3.4.1-foss-2016b
+  5) Szip/2.1.1-foss-2016b => Szip/2.1-foss-2016b
+  6) Tcl/8.6.7-foss-2016b => Tcl/8.6.5-foss-2016b
+  7) Tk/8.6.7-foss-2016b => Tk/8.6.5-foss-2016b
+  8) bzip2/1.0.6-GCCcore-5.4.0 => bzip2/1.0.6-foss-2016b
+  9) freetype/2.7.1-GCCcore-5.4.0 => freetype/2.6.5-foss-2016b
+ 10) libpng/1.6.28-GCCcore-5.4.0 => libpng/1.6.24-foss-2016b
+ 11) netCDF/4.5.0-foss-2016b => netCDF/4.4.1-foss-2016b
+
+[1] "INFO: gene ENSG00000033170"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000033170"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000054654"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000054654"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000054690"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000054690"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000070182"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000070182"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000072042"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000072042"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000072121"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000072121"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000072415"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000072415"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000081181"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000081181"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000089775"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000089775"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000092009"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000092009"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000092010"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000092010"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000092020"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000092020"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000092036"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000092036"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000092051"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000092051"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000092054"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000092054"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000092067"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000092067"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000092068"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000092068"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000092094"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000092094"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000092096"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000092096"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000092098"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000092098"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000092108"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000092108"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000092140"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000092140"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000092148"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000092148"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000092199"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000092199"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000092200"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000092200"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000092201"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000092201"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000092203"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000092203"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000092208"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000092208"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000092295"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000092295"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000092330"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000092330"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100439"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100439"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100441"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100441"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100442"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100442"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100445"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100445"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100448"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100448"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100450"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100450"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100453"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100453"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100461"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100461"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100462"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100462"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100473"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100473"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100478"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100478"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100479"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100479"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100554"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100554"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100558"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100558"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100564"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100564"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100568"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100568"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100714"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100714"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100802"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100802"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100804"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100804"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: 13.74% processed"
+[1] "INFO: gene ENSG00000100813"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100813"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100814"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100814"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100823"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100823"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100836"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100836"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100842"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100842"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100852"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100852"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100867"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100867"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100883"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100883"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100884"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100884"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100888"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100888"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100889"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100889"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100890"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100890"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100897"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100897"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100902"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100902"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100906"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100906"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100908"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100908"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100911"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100911"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100916"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100916"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100918"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100918"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100926"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100926"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100934"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100934"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100938"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100938"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100941"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100941"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100949"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100949"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000100968"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000100968"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000125952"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000125952"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000126803"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000126803"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000126804"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000126804"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000126821"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000126821"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000126822"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000126822"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000129460"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000129460"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000129465"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000129465"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000129467"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000129467"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000129472"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000129472"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000129473"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000129473"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000129474"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000129474"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000129480"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000129480"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000129484"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000129484"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000129493"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000129493"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000129514"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000129514"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000129515"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000129515"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000129518"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000129518"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000129521"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000129521"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000129534"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000129534"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000129535"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000129535"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000129538"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000129538"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000129559"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000129559"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000129562"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000129562"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000129566"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000129566"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000134001"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000134001"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: 27.47% processed"
+[1] "INFO: gene ENSG00000136315"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000136315"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000136319"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000136319"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000136327"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000136327"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000136352"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000136352"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000136367"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000136367"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000139865"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000139865"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000139874"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000139874"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000139880"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000139880"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000139890"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000139890"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000139899"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000139899"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000139908"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000139908"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000139910"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000139910"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000139914"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000139914"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000139915"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000139915"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000139988"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000139988"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000139998"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000139998"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000140006"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000140006"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000140009"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000140009"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000150526"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000150526"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000150527"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000150527"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000151320"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000151320"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000151322"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000151322"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000151327"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000151327"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000151332"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000151332"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000151338"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000151338"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000151413"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000151413"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000155249"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000155249"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000155463"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000155463"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000155465"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000155465"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000157227"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000157227"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000157326"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000157326"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000157379"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000157379"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000165355"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000165355"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000165379"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000165379"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000165389"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000165389"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000165410"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000165410"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000165496"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000165496"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000165501"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000165501"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000165502"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000165502"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000165506"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000165506"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000165516"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000165516"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000165525"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000165525"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000165527"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000165527"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000165762"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000165762"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000165782"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000165782"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000165792"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000165792"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000165794"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000165794"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000165795"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000165795"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000165799"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000165799"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000165801"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000165801"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: 41.21% processed"
+[1] "INFO: gene ENSG00000165804"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000165804"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000165807"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000165807"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000165819"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000165819"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000165821"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000165821"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000166090"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000166090"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000166091"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000166091"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000168282"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000168282"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000168348"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000168348"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000168952"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000168952"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000169208"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000169208"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000169327"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000169327"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000169385"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000169385"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000169397"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000169397"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000169413"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000169413"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000169484"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000169484"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000169488"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000169488"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000171723"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000171723"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000172590"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000172590"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000172717"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000172717"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000173431"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000173431"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000173464"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000173464"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000174373"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000174373"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000176153"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000176153"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000176165"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000176165"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000176198"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000176198"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000176219"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000176219"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000176230"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000176230"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000176246"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000176246"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000176253"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000176253"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000176281"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000176281"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000176294"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000176294"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000176299"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000176299"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000176435"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000176435"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000178107"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000178107"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000179454"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000179454"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000179476"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000179476"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000179636"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000179636"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000179841"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000179841"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000179933"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000179933"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000181552"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000181552"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000181562"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000181562"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000181803"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000181803"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000182400"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000182400"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000182545"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000182545"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000182652"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000182652"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000183032"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000183032"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000184304"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000184304"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000184394"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000184394"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000185246"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000185246"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000185271"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000185271"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: 54.95% processed"
+[1] "INFO: gene ENSG00000186369"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000186369"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000186648"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000186648"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000186960"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000186960"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000187537"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000187537"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000187630"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000187630"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000187790"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000187790"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000188655"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000188655"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000189139"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000189139"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000196497"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000196497"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000196553"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000196553"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000196792"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000196792"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000196832"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000196832"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000196943"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000196943"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000197324"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000197324"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000197616"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000197616"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000197776"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000197776"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000198133"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000198133"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000198604"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000198604"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000198718"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000198718"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000198805"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000198805"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000198807"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000198807"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000199157"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000199157"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000203546"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000203546"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000205978"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000205978"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000206150"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000206150"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000207781"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000207781"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000207952"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000207952"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000213741"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000213741"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000213903"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000213903"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000213906"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000213906"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000213920"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000213920"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000213928"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000213928"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000213983"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000213983"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000214274"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000214274"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000214900"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000214900"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000215271"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000215271"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000215277"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000215277"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000215991"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000215991"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000221537"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000221537"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000221977"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000221977"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000222028"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000222028"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000222036"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000222036"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000225210"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000225210"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000225680"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000225680"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000228294"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000228294"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000229415"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000229415"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000232070"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000232070"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000235194"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000235194"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000235269"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000235269"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000237356"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000237356"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: 68.68% processed"
+[1] "INFO: gene ENSG00000244306"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000244306"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000245466"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000245466"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000248358"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000248358"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000248975"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000248975"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000250548"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000250548"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000251002"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000251002"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000251363"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000251363"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000254505"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000254505"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000255002"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000255002"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000255472"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000255472"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000255582"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000255582"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000255804"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000255804"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000257115"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000257115"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000257185"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000257185"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000257272"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000257272"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000257310"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000257310"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000257365"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000257365"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000257395"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000257395"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000257472"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000257472"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000257504"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000257504"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000257522"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000257522"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000257523"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000257523"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000257585"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000257585"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000257612"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000257612"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000257614"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000257614"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000257759"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000257759"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000257826"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000257826"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000257845"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000257845"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000257869"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000257869"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000257891"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000257891"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000257900"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000257900"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000257986"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000257986"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258028"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258028"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258038"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258038"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258050"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258050"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258081"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258081"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258098"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258098"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258107"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258107"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258175"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258175"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258265"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258265"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258289"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258289"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258314"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258314"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258364"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258364"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258386"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258386"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258413"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258413"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258414"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258414"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258418"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258418"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258425"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258425"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258436"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258436"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258441"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258441"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: 82.42% processed"
+[1] "INFO: gene ENSG00000258464"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258464"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258474"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258474"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258479"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258479"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258480"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258480"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258487"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258487"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258502"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258502"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258517"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258517"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258520"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258520"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258526"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258526"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258537"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258537"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258548"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258548"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258556"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258556"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258561"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258561"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258583"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258583"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258586"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258586"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258592"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258592"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258604"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258604"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258616"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258616"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258636"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258636"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258643"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258643"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258649"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258649"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258651"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258651"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258667"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258667"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258689"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258689"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258694"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258694"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258698"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258698"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258700"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258700"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258703"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258703"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258708"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258708"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258711"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258711"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258744"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258744"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258751"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258751"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258768"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258768"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258772"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258772"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258818"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258818"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258844"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258844"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258845"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258845"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258850"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258850"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258860"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258860"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258868"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258868"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258908"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258908"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258918"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258918"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258969"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258969"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000258998"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000258998"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000259003"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000259003"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000259017"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000259017"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000259042"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000259042"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000259069"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000259069"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000259070"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000259070"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000259072"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000259072"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: 96.15% processed"
+[1] "INFO: gene ENSG00000259083"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000259083"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000259087"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000259087"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000259104"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000259104"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000259126"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000259126"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000259129"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000259129"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000259130"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000259130"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000259149"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000259149"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000259321"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000259321"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000259334"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000259334"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000259431"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000259431"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000260046"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000260046"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000263945"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000263945"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000264657"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000264657"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000265165"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000265165"
+ERROR from TryCatch Block: cannot open the connection 
+[1] "INFO: gene ENSG00000266327"
+[1] "/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr14/ENSG00000266327"
+ERROR from TryCatch Block: cannot open the connection 
+Time difference of 4.607359 mins
+There were 50 or more warnings (use warnings() to see the first 50)

@@ -1,0 +1,11 @@
+8	0	p08r06n33.grace.hpc.yale.internal	2020-02-26 15:41:14	2020-02-26 15:42:25	71.39	module load R; Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 20
+6	0	p08r06n33.grace.hpc.yale.internal	2020-02-26 15:41:14	2020-02-26 15:43:20	126.43	module load R; Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 18
+9	0	p08r06n33.grace.hpc.yale.internal	2020-02-26 15:41:14	2020-02-26 15:43:55	160.92	module load R; Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 21
+7	0	p08r06n33.grace.hpc.yale.internal	2020-02-26 15:41:14	2020-02-26 15:44:01	167.67	module load R; Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 19
+1	0	p08r06n33.grace.hpc.yale.internal	2020-02-26 15:41:14	2020-02-26 15:44:10	176.26	module load R; Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 13
+10	0	p08r06n33.grace.hpc.yale.internal	2020-02-26 15:41:14	2020-02-26 15:44:36	201.94	module load R; Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 22
+4	0	p08r06n33.grace.hpc.yale.internal	2020-02-26 15:41:14	2020-02-26 15:45:49	275.78	module load R; Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 16
+2	0	p08r06n33.grace.hpc.yale.internal	2020-02-26 15:41:14	2020-02-26 15:46:04	289.85	module load R; Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 14
+0	0	p08r06n34.grace.hpc.yale.internal	2020-02-26 15:41:14	2020-02-26 15:46:35	321.51	module load R; Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 12
+5	0	p08r06n33.grace.hpc.yale.internal	2020-02-26 15:41:14	2020-02-26 15:47:01	347.54	module load R; Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 17
+3	0	p08r06n33.grace.hpc.yale.internal	2020-02-26 15:41:14	2020-02-26 15:47:08	354.07	module load R; Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 15

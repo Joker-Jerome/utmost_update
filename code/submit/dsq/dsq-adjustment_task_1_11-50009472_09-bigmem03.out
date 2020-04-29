@@ -1,0 +1,6 @@
+[1] "INFO: gene NA"
+ERROR from TryCatch Block: File '/gpfs/loomis/pi/zhao/zy92/utmost_update/GTEX/expr_gtex1/chr10/NA/NA' does not exist or is non-readable. getwd()=='/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr10/NA' 
+[1] "INFO: NaN% processed"
+[1] "INFO: gene "
+ERROR from TryCatch Block: File '/gpfs/loomis/pi/zhao/zy92/utmost_update/GTEX/expr_gtex1/chr10//NA' does not exist or is non-readable. getwd()=='/gpfs/loomis/scratch60/zhao/zy92/GTEX/adjusted_expr1/chr10' 
+Time difference of 0.01218939 secs

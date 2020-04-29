@@ -1,0 +1,9 @@
+Rscript /ysm-gpfs/pi/zhao/zy92/projects/utmost_update/utmost_update/code/R/summarize_snp_direction.R 1
+Rscript /ysm-gpfs/pi/zhao/zy92/projects/utmost_update/utmost_update/code/R/summarize_snp_direction.R 2
+Rscript /ysm-gpfs/pi/zhao/zy92/projects/utmost_update/utmost_update/code/R/summarize_snp_direction.R 3
+Rscript /ysm-gpfs/pi/zhao/zy92/projects/utmost_update/utmost_update/code/R/summarize_snp_direction.R 4
+Rscript /ysm-gpfs/pi/zhao/zy92/projects/utmost_update/utmost_update/code/R/summarize_snp_direction.R 5
+Rscript /ysm-gpfs/pi/zhao/zy92/projects/utmost_update/utmost_update/code/R/summarize_snp_direction.R 6
+Rscript /ysm-gpfs/pi/zhao/zy92/projects/utmost_update/utmost_update/code/R/summarize_snp_direction.R 7
+Rscript /ysm-gpfs/pi/zhao/zy92/projects/utmost_update/utmost_update/code/R/summarize_snp_direction.R 8
+Rscript /ysm-gpfs/pi/zhao/zy92/projects/utmost_update/utmost_update/code/R/summarize_snp_direction.R 9
