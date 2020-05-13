@@ -5,11 +5,11 @@ suppressPackageStartupMessages(library(data.table))
 # arguments
 args = commandArgs(trailingOnly=TRUE)
 task_index = args[1] ## a file contains task index
-output_path <- "/gpfs/loomis/project/radev/zy92/utmost_update/GTEX/expr_gtex1/" ## path for saving outputs of tasks
+output_path <- "/gpfs/project/zhao/zy92/GTEX/expr_gtex/" ## path for saving outputs of tasks
 sqfile_path = args[3] ## path for saving simple queue files
 ## e.g. Rscript --vanilla extract_raw_expression.R chr_idx 
 
-load("/gpfs/loomis/project/radev/zy92/utmost_update/GTEX/raw_expression.RData")
+load("/ysm-gpfs/pi/zhao/zy92/projects/utmost_update/GTEX/raw_expression.RData")
 # extract the expression level and save in the directory
 # loop over chr
 #for (i in 1:22) {
