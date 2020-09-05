@@ -6,8 +6,10 @@ chr = as.numeric(args[1])
 
 ref_df = as.data.frame(fread(paste0("/ysm-gpfs/pi/zhao-data/zy92/GTEx_V8/chr", chr, "_snp.txt")))
 
-est_file_list = list.files(paste0("/gpfs/project/zhao/zy92/GTEX/output/chr", chr))
-output_dir = paste0("/gpfs/project/zhao/zy92/GTEX/weight/chr", chr)
+#est_file_list = list.files(paste0("/gpfs/scratch60/zhao/zy92/GTEX/output_0715/chr", chr))
+est_file_list = list.files(paste0("/gpfs/project/zhao/zy92/GTEX/output_normalized_pruned/chr", chr))
+output_dir = paste0("/gpfs/project/zhao/zy92/GTEX/weight_normalized_pruned/chr", chr)
+
 if (!dir.exists(output_dir)) {
     dir.create(output_dir)
 }
@@ -29,6 +31,7 @@ for (i in 1:length(est_file_list)) {
         est_df = as.data.frame(fread(est_file))
         joint_df = est_df %>%
             inner_join(ref_df, by = c("id" = "variant_id"))
+            
         tissue_vec = colnames(est_df)[7:ncol(est_df)]
         tissue_vec = as.character(sapply(tissue_vec, function(x) unlist(strsplit(x, "\\."))[1]))
                                   
@@ -44,7 +47,9 @@ for (i in 1:length(est_file_list)) {
                                                  weight = joint_df[, tissue_idx + 6],
                                                  ref_allele = joint_df$ref.x,
                                                  eff_allele = joint_df$alt.x
-                                                )
+                                                ) %>% 
+                filter(weight != 0)
+                    
                 
             } else {
                 tmp_df  = data.frame(rsid = joint_df$rs_id_dbSNP151_GRCh38p7,
@@ -52,7 +57,9 @@ for (i in 1:length(est_file_list)) {
                                                  weight = joint_df[, tissue_idx + 6],
                                                  ref_allele = joint_df$ref.x,
                                                  eff_allele = joint_df$alt.x
-                                     )
+                                     ) %>% 
+                filter(weight != 0)
+                
                 weight_list[[tissue]] = rbind(weight_list[[tissue]], tmp_df)
             }
             
@@ -90,7 +97,7 @@ for (tissue in names(weight_list)) {
     weight_file = paste0(output_dir, "/", tissue, ".weight.txt")
     extra_file = paste0(output_dir, "/", tissue, ".extra.txt")
     write.table(weight_list[[tissue]], file = weight_file, quote = F, row.names = F)
-    write.table(weight_list[[tissue]], file = extra_file, quote = F, row.names = F)
+    write.table(weight_snps[[tissue]], file = extra_file, quote = F, row.names = F)
 
 
 }

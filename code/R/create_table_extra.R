@@ -6,10 +6,8 @@ chr = as.numeric(args[1])
 
 ref_df = as.data.frame(fread(paste0("/ysm-gpfs/pi/zhao-data/zy92/GTEx_V8/chr", chr, "_snp.txt")))
 
-#est_file_list = list.files(paste0("/gpfs/scratch60/zhao/zy92/GTEX/output_0715/chr", chr))
-est_file_list = list.files(paste0("/gpfs/project/zhao/zy92/GTEX/output_normalized_pruned/chr", chr))
-output_dir = paste0("/gpfs/project/zhao/zy92/GTEX/weight_normalized_pruned/chr", chr)
-
+est_file_list = list.files(paste0("/gpfs/scratch60/zhao/zy92/GTEX/output_0715/chr", chr))
+output_dir = paste0("/gpfs/project/zhao/zy92/GTEX/weight_sparse/chr", chr)
 if (!dir.exists(output_dir)) {
     dir.create(output_dir)
 }
@@ -41,27 +39,27 @@ for (i in 1:length(est_file_list)) {
             tissue = tissue_vec[tissue_idx]
             #IRdisplay::display_html(tissue)
             # weight table
-            if (!tissue %in% names(weight_list)) {
-                weight_list[[tissue]] = data.frame(rsid = joint_df$rs_id_dbSNP151_GRCh38p7,
-                                                 gene = gene,
-                                                 weight = joint_df[, tissue_idx + 6],
-                                                 ref_allele = joint_df$ref.x,
-                                                 eff_allele = joint_df$alt.x
-                                                ) %>% 
-                filter(weight != 0)
+#             if (!tissue %in% names(weight_list)) {
+#                 weight_list[[tissue]] = data.frame(rsid = joint_df$rs_id_dbSNP151_GRCh38p7,
+#                                                  gene = gene,
+#                                                  weight = joint_df[, tissue_idx + 6],
+#                                                  ref_allele = joint_df$ref.x,
+#                                                  eff_allele = joint_df$alt.x
+#                                                 ) %>% 
+#                 filter(weight != 0)
                     
                 
-            } else {
-                tmp_df  = data.frame(rsid = joint_df$rs_id_dbSNP151_GRCh38p7,
-                                                 gene = gene,
-                                                 weight = joint_df[, tissue_idx + 6],
-                                                 ref_allele = joint_df$ref.x,
-                                                 eff_allele = joint_df$alt.x
-                                     ) %>% 
-                filter(weight != 0)
+#             } else {
+#                 tmp_df  = data.frame(rsid = joint_df$rs_id_dbSNP151_GRCh38p7,
+#                                                  gene = gene,
+#                                                  weight = joint_df[, tissue_idx + 6],
+#                                                  ref_allele = joint_df$ref.x,
+#                                                  eff_allele = joint_df$alt.x
+#                                      ) %>% 
+#                 filter(weight != 0)
                 
-                weight_list[[tissue]] = rbind(weight_list[[tissue]], tmp_df)
-            }
+#                 weight_list[[tissue]] = rbind(weight_list[[tissue]], tmp_df)
+#             }
             
             # extra table
             if (!tissue %in% names(weight_snps)) {
@@ -94,9 +92,9 @@ for (i in 1:length(est_file_list)) {
 
 
 for (tissue in names(weight_list)) {
-    weight_file = paste0(output_dir, "/", tissue, ".weight.txt")
+    #weight_file = paste0(output_dir, "/", tissue, ".weight.txt")
     extra_file = paste0(output_dir, "/", tissue, ".extra.txt")
-    write.table(weight_list[[tissue]], file = weight_file, quote = F, row.names = F)
+    #write.table(weight_list[[tissue]], file = weight_file, quote = F, row.names = F)
     write.table(weight_snps[[tissue]], file = extra_file, quote = F, row.names = F)
 
 

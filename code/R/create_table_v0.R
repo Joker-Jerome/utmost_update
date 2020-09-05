@@ -6,10 +6,8 @@ chr = as.numeric(args[1])
 
 ref_df = as.data.frame(fread(paste0("/ysm-gpfs/pi/zhao-data/zy92/GTEx_V8/chr", chr, "_snp.txt")))
 
-#est_file_list = list.files(paste0("/gpfs/scratch60/zhao/zy92/GTEX/output_0715/chr", chr))
-est_file_list = list.files(paste0("/gpfs/project/zhao/zy92/GTEX/output_normalized_pruned/chr", chr))
-output_dir = paste0("/gpfs/project/zhao/zy92/GTEX/weight_normalized_pruned/chr", chr)
-
+est_file_list = list.files(paste0("/gpfs/scratch60/zhao/zy92/GTEX/output_0715/chr", chr))
+output_dir = paste0("/gpfs/project/zhao/zy92/GTEX/weight_sparse/chr", chr)
 if (!dir.exists(output_dir)) {
     dir.create(output_dir)
 }
