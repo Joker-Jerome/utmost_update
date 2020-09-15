@@ -11,7 +11,7 @@ est_file_list = list.files(paste0("/gpfs/project/zhao/zy92/GTEX/output_normalize
 output_dir = paste0("/gpfs/project/zhao/zy92/GTEX/weight_normalized_pruned/chr", chr)
 
 if (!dir.exists(output_dir)) {
-    dir.create(output_dir)
+    dir.create(output_dir, recursive = T)
 }
    
 weight_list = list()
@@ -24,7 +24,7 @@ for (i in 1:length(est_file_list)) {
         print(paste0("INFO: gene ", i))
     }
     gene = est_file_list[i]
-    est_dir = paste0("/gpfs/project/zhao/zy92/GTEX/output/chr", chr, "/", est_file_list[i])
+    est_dir = paste0("/gpfs/project/zhao/zy92/GTEX/output_normalized_pruned/chr", chr, "/", est_file_list[i])
     est_file = list.files(est_dir, pattern = "*.est")
     if (length(est_file) > 0) {   
         est_file = paste0(est_dir, "/", est_file)

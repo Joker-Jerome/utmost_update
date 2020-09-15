@@ -245,7 +245,7 @@ k = "V1"
 #genotype_dir = "/ysm-gpfs/project/wl382/GTEx_v8/genotype/cis_loc/"
 genotype_dir = "/gpfs/scratch60/zhao/zy92/pruned_loc/"
 #gtex_dir = "/gpfs/loomis/project/zhao/zy92/GTEX/" 
-gtex_dir = "/gpfs/loomis/scratch60/zhao/wl382/GTEx_V8/" # normalized version
+gtex_dir = "/gpfs/scratch60/zhao/zy92/GTEx_V8/" # normalized version
 glist = dir(paste0(gtex_dir, "adjusted_expr/chr", chr))
 
 
@@ -259,7 +259,7 @@ dose_path = paste0(genotype_dir, chr_str, gene_id, "/", gene_id)
 Yt = dir(paste0(gtex_dir, "adjusted_expr/", chr_str, g, "/"))
 P = length(Yt)
 #output_dir = "/gpfs/loomis/project/zhao/zy92/GTEX/output/" 
-output_dir = "/gpfs/scratch/zhao/zy92/GTEX/output_normalized_pruned/"
+output_dir = "/gpfs/scratch60/zhao/zy92/GTEX/output_normalized_pruned/"
 ntune = 5
 if_verbose = F
 # loading fast matrix operations 
