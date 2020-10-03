@@ -1,3 +1,4 @@
+
 # libraries
 suppressPackageStartupMessages(library(dplyr))
 suppressPackageStartupMessages(library(data.table))
@@ -5,19 +6,16 @@ suppressPackageStartupMessages(library(data.table))
 # arguments
 args = commandArgs(trailingOnly=TRUE)
 task_index = as.numeric(args[1]) ## a file contains task index
-output_path <- "/gpfs/scratch60/zhao/zy92/GTEX/expr_gtex_lnc/" ## path for saving outputs of tasks
+output_path <- "/gpfs/scratch60/zhao/zy92/GTEX/expr_gtex_mirna_updated/" ## path for saving outputs of tasks
 ## e.g. Rscript --vanilla extract_raw_expression.R chr_idx 
-
-# extract the expression level and save in the directory
-# loop over tissue
 start_time <- Sys.time()
-                          
 
-# load data
+
+
 load("/ysm-gpfs/pi/zhao-data/zy92/GTEx_V8/processed_data/exp_df_various_biotypes_various_tissues.RData")
 load("/ysm-gpfs/pi/zhao-data/zy92/GTEx_V8/processed_data/annotation_complete_chr.RData")
 
-tissue_vec_target <- target_tissue_vec <- names(df_list_lnc)[1:49]
+tissue_vec_target <- target_tissue_vec <- names(df_list_mirna)[1:49]
 # extract the expression level and save in the directory
 # loop over chr
 #for (i in 1:22) {
@@ -32,7 +30,7 @@ for (i in task_index) {
     
     # subset the specific gene set for the transcript type
     transcriptome_summary <- res_summary %>%
-        filter(ensembl_id %in% df_list_lnc[[1]]$Name)
+        filter(ensembl_id %in% df_list_mirna[[1]]$Name)
     expression_info_tmp <- transcriptome_summary %>% 
         filter(chromosome_name %in% UQ(i))
     head(expression_info_tmp)
@@ -47,7 +45,7 @@ for (i in task_index) {
     
     # tissue-based extraction
     for (tissue in tissue_vec_target) {
-        tmp_exp <- df_list_lnc[[tissue]] %>%
+        tmp_exp <- df_list_mirna[[tissue]] %>%
             filter(Name %in% expression_info_tmp$ensembl_id) %>%
             as.data.frame()
         sample_id <- as.character(sapply(colnames(tmp_exp)[3:ncol(tmp_exp)], function(x) 

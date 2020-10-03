@@ -5,10 +5,9 @@ args = commandArgs(trailingOnly = TRUE)
 chr = as.numeric(args[1])
 
 ref_df = as.data.frame(fread(paste0("/ysm-gpfs/pi/zhao-data/zy92/GTEx_V8/chr", chr, "_snp.txt")))
-
-#est_file_list = list.files(paste0("/gpfs/scratch60/zhao/zy92/GTEX/output_0715/chr", chr))
-est_file_list = list.files(paste0("/gpfs/project/zhao/zy92/GTEX/output_normalized_pruned/chr", chr))
-output_dir = paste0("/gpfs/project/zhao/zy92/GTEX/weight_normalized_pruned/chr", chr)
+est_file_dir = "/gpfs/scratch60/zhao/zy92/GTEX/brain_pruned/ENET/chr"
+est_file_list = list.files(paste0(est_file_dir, chr))
+output_dir = paste0("/gpfs/scratch60/zhao/zy92/GTEX/weight_ENET/chr", chr)
 
 if (!dir.exists(output_dir)) {
     dir.create(output_dir, recursive = T)
@@ -16,6 +15,9 @@ if (!dir.exists(output_dir)) {
    
 weight_list = list()
 weight_snps = list()
+construction_list = list()
+sample_list = list()
+
 gene_vec = c()
 
 for (i in 1:length(est_file_list)) {
@@ -24,16 +26,19 @@ for (i in 1:length(est_file_list)) {
         print(paste0("INFO: gene ", i))
     }
     gene = est_file_list[i]
-    est_dir = paste0("/gpfs/project/zhao/zy92/GTEX/output_normalized_pruned/chr", chr, "/", est_file_list[i])
-    est_file = list.files(est_dir, pattern = "*.est")
+    est_dir = paste0(est_file_dir, chr, "/", est_file_list[i])
+    est_file = list.files(est_dir, pattern = "*_weights.txt")
     if (length(est_file) > 0) {   
         est_file = paste0(est_dir, "/", est_file)
         est_df = as.data.frame(fread(est_file))
         joint_df = est_df %>%
-            inner_join(ref_df, by = c("id" = "variant_id"))
-            
+            inner_join(ref_df, by = c("id" = "variant_id")) %>%
+            as.data.frame()
+        
+        
         tissue_vec = colnames(est_df)[7:ncol(est_df)]
-        tissue_vec = as.character(sapply(tissue_vec, function(x) unlist(strsplit(x, "\\."))[1]))
+        # for new tissue vec
+        #tissue_vec = as.character(sapply(tissue_vec, function(x) unlist(strsplit(x, "\\."))[1]))
                                   
         # write est 
 
@@ -83,7 +88,16 @@ for (i in 1:length(est_file_list)) {
                                                 )
                                      
                 weight_snps[[tissue]] = rbind(weight_snps[[tissue]], tmp_df)
+            
+           
+                
             }
+            
+            # construction table
+            construction_list[[tissue]] = data.frame(chr = 1:22, cv.seed = rep(1, 22))
+            
+            # sample table
+            sample_list[[tissue]] = data.frame(n.samples = 500)
             
         }
         
@@ -93,11 +107,15 @@ for (i in 1:length(est_file_list)) {
 }
 
 
+# output 
 for (tissue in names(weight_list)) {
     weight_file = paste0(output_dir, "/", tissue, ".weight.txt")
     extra_file = paste0(output_dir, "/", tissue, ".extra.txt")
+    construction_file = paste0(output_dir, "/", tissue, ".construction.txt")
+    sample_file = paste0(output_dir, "/", tissue, ".sample.txt")
     write.table(weight_list[[tissue]], file = weight_file, quote = F, row.names = F)
     write.table(weight_snps[[tissue]], file = extra_file, quote = F, row.names = F)
-
+    write.table(construction_list[[tissue]], file = construction_file, quote = F, row.names = F)
+    write.table(sample_list[[tissue]], file = sample_file, quote = F, row.names = F)
 
 }

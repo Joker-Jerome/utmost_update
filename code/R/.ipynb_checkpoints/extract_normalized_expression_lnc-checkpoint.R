@@ -5,7 +5,7 @@ suppressPackageStartupMessages(library(data.table))
 # arguments
 args = commandArgs(trailingOnly=TRUE)
 task_index = as.numeric(args[1]) ## a file contains task index
-output_path <- "/gpfs/project/zhao/zy92/GTEX/expr_gtex_lnc/" ## path for saving outputs of tasks
+output_path <- "/gpfs/scratch60/zhao/zy92/GTEX/expr_gtex_lnc/" ## path for saving outputs of tasks
 ## e.g. Rscript --vanilla extract_raw_expression.R chr_idx 
 
 # extract the expression level and save in the directory
@@ -50,7 +50,9 @@ for (i in task_index) {
         tmp_exp <- df_list_lnc[[tissue]] %>%
             filter(Name %in% expression_info_tmp$ensembl_id) %>%
             as.data.frame()
-        sample_id <- substr(colnames(tmp_exp)[3:ncol(tmp_exp)], 1, 10)
+        sample_id <- as.character(sapply(colnames(tmp_exp)[3:ncol(tmp_exp)], function(x) 
+                paste0(unlist(strsplit(x, split = "-"))[1:2], collapse = "-"))
+        )
         tmp_gene_vec <- tmp_exp$Name
         for (j in 1:length(tmp_gene_vec) ) {
             if (j %% 100 == 0) { 
@@ -59,6 +61,12 @@ for (i in task_index) {
             gene <- tmp_gene_vec[j]
             tmp_file <- paste0(output_path_chr, gene, "/", tissue, ".txt")
             exp_vec <- as.numeric(tmp_exp[j, 3:ncol(tmp_exp)])
+            
+            # filter out the transcripts with too many zeros
+            n_obs <- length(exp_vec)
+            if (sum(exp_vec == 0) > round(0.95 * n_obs)) {
+                next
+            }
             tmp_df <- data.frame(sample_id = sample_id, exp = exp_vec)
             IRdisplay::display_html(paste0("INFO: ", gene))
             write.table(tmp_df, file = tmp_file, row.names = F, col.names = F, quote = F)
