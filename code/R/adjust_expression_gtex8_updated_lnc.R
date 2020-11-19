@@ -17,10 +17,9 @@ options(stringsAsFactors=F)
 args = commandArgs(trailingOnly=TRUE)
 chr_index = as.numeric(args[1]) ## chr index
 netid = args[2]
-input_expression_dir = "/gpfs/project/zhao/zy92/GTEX/expr_normalized/"
+input_expression_dir = "/gpfs/loomis/scratch60/zhao/zy92/GTEX/expr_gtex_lnc_updated/"
 cov_dir = "/ysm-gpfs/pi/zhao-data/zy92/GTEx_V8/GTEx_Analysis_v8_eQTL_covariates/"
-output_prefix = "/GTEx_V8/adjusted_expr/" # /gpfs/loomis/scratch60/zhao/netid/prefix                    
-related_genes = c("")
+output_prefix = "/GTEX/adjusted_lnc_expr/" # /gpfs/loomis/scratch60/zhao/netid/prefix                    
 
 ###### decide which tissue to be predicted ######
 
@@ -40,11 +39,10 @@ for (i in 1:length(cov_fl)){
 }
                                  
 # read in the related transcripts                       
-anno_df = "/ysm-gpfs/pi/zhao-data/zy92/GTEx_V8/processed_data/annotation_complete_chr.RData"
-load(anno_df)                                 
-related_transcript = list()
-             
-                    
+# Xt_extra_list_tissue                               
+load("/gpfs/loomis/project/zhao/zy92/GTEX/expr_related_genes.RData") 
+
+                                 
                                  
 #tissues <- gsub("\\.v8\\.covariates\\.txt","",cov_fl)
 ### load expression and adjusting the covariates ###
@@ -63,11 +61,12 @@ for (chr in chr_index) {
             print(paste0("INFO: gene ", g))
 			Yt = dir(paste0(input_expression_dir, "chr", chr, "/", g, "/"))
 			#
-			dir.create(file.path(paste0("/gpfs/loomis/scratch60/zhao/", netid, output_prefix, "chr", chr, "/", g)),recursive = TRUE)
-			setwd(paste0("/gpfs/loomis/scratch60/zhao/", netid, output_prefix, "chr", chr, "/", g))
+			dir.create(file.path(paste0("/gpfs/loomis/project/zhao/", netid, output_prefix, "chr", chr, "/", g)), recursive = TRUE)
+			setwd(paste0("/gpfs/loomis/project/zhao/", netid, output_prefix, "chr", chr, "/", g))
 			#print("finish reading the exp")
 			## expr files ##
 			Y = list()
+           
 			for(t in 1:length(Yt)){
 				Y[[t]] = as.data.frame(fread(paste0(input_expression_dir, "chr", chr, "/", g, "/", Yt[t]), header=F))#, sep = "\t"))
 				print(paste0("chr", chr, "/", g, "/", Yt[t]))
@@ -150,8 +149,15 @@ for (chr in chr_index) {
 						X = X[,-rmv]
 					}
 				}
+                
+                # add extra columns to adjust the expression
                 Y[[t]] <- Y[[t]][idx1, ]
-				X = data.frame(y=Y[[t]][,2],X)
+                X_extra <- Y[[t]] %>% 
+                    left_join(Xt_extra_list_tissue[[Yt[t]]], by = c("V1" = "sample_id")) %>%
+                    as.data.frame()
+                
+                # final adjustment model y ~ cov + extra_x 
+				X = data.frame(y=Y[[t]][,2], X, X_extra[, 3:6]) 
 				adj_expr = resid(lm(y~., data=X))
 				print("INFO: before writing")
 				write.table(cbind(Y[[t]][,1], adj_expr), paste0(Yt_tissue[t], ".adj_expr"), quote=F, row.names=F, col.names=F)
