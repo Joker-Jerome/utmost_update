@@ -1,0 +1,9 @@
+8	0	c20n12.farnam.hpc.yale.internal	2020-01-31 10:35:25	2020-01-31 10:40:55	329.74	Rscript /ysm-gpfs/pi/zhao/zy92/projects/utmost_update/utmost_update/code/R/summarize_snp_direction.R 9
+2	0	p02r09n24.farnam.hpc.yale.internal	2020-01-31 10:34:51	2020-01-31 10:41:18	387.10	Rscript /ysm-gpfs/pi/zhao/zy92/projects/utmost_update/utmost_update/code/R/summarize_snp_direction.R 3
+1	0	p02r09n24.farnam.hpc.yale.internal	2020-01-31 10:34:51	2020-01-31 10:41:21	390.18	Rscript /ysm-gpfs/pi/zhao/zy92/projects/utmost_update/utmost_update/code/R/summarize_snp_direction.R 2
+0	0	p02r09n23.farnam.hpc.yale.internal	2020-01-31 10:34:51	2020-01-31 10:43:06	494.84	Rscript /ysm-gpfs/pi/zhao/zy92/projects/utmost_update/utmost_update/code/R/summarize_snp_direction.R 1
+7	0	c20n11.farnam.hpc.yale.internal	2020-01-31 10:35:25	2020-01-31 10:43:43	497.73	Rscript /ysm-gpfs/pi/zhao/zy92/projects/utmost_update/utmost_update/code/R/summarize_snp_direction.R 8
+4	0	c16n12.farnam.hpc.yale.internal	2020-01-31 10:35:25	2020-01-31 10:43:56	510.61	Rscript /ysm-gpfs/pi/zhao/zy92/projects/utmost_update/utmost_update/code/R/summarize_snp_direction.R 5
+5	0	c23n12.farnam.hpc.yale.internal	2020-01-31 10:35:25	2020-01-31 10:43:58	512.59	Rscript /ysm-gpfs/pi/zhao/zy92/projects/utmost_update/utmost_update/code/R/summarize_snp_direction.R 6
+6	0	c20n10.farnam.hpc.yale.internal	2020-01-31 10:35:25	2020-01-31 10:44:09	523.54	Rscript /ysm-gpfs/pi/zhao/zy92/projects/utmost_update/utmost_update/code/R/summarize_snp_direction.R 7
+3	0	bigmem01.farnam.hpc.yale.internal	2020-01-31 10:34:54	2020-01-31 10:50:31	937.27	Rscript /ysm-gpfs/pi/zhao/zy92/projects/utmost_update/utmost_update/code/R/summarize_snp_direction.R 4

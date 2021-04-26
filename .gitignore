@@ -1,1 +1,5 @@
+debug*
+*.RData
 data*
+dsq*
+submit*

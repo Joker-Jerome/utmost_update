@@ -1,0 +1,4 @@
+2	1	p02r09n24.farnam.hpc.yale.internal	2020-05-19 12:09:00	2020-05-19 12:17:11	490.46	Rscript --vanila /gpfs/project/zhao/zy92/utmost_update/utmost_update/code/R/model_training.R 1 3
+3	1	p02r09n23.farnam.hpc.yale.internal	2020-05-19 12:09:01	2020-05-19 12:18:38	577.22	Rscript --vanila /gpfs/project/zhao/zy92/utmost_update/utmost_update/code/R/model_training.R 1 4
+1	-9	bigmem01.farnam.hpc.yale.internal	2020-05-19 12:09:00	2020-05-19 12:24:34	933.61	Rscript --vanila /gpfs/project/zhao/zy92/utmost_update/utmost_update/code/R/model_training.R 1 2
+0	1	bigmem01.farnam.hpc.yale.internal	2020-05-19 12:09:00	2020-05-19 12:27:06	1086.04	Rscript --vanila /gpfs/project/zhao/zy92/utmost_update/utmost_update/code/R/model_training.R 1 1

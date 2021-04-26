@@ -1,0 +1,11 @@
+8	0	bigmem04.grace.hpc.yale.internal	2020-02-13 11:28:43	2020-02-13 11:28:49	5.91	module load R; Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 20
+7	0	bigmem04.grace.hpc.yale.internal	2020-02-13 11:28:44	2020-02-13 11:28:50	5.92	module load R; Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 19
+9	0	bigmem04.grace.hpc.yale.internal	2020-02-13 11:28:44	2020-02-13 11:28:50	6.04	module load R; Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 21
+10	0	bigmem04.grace.hpc.yale.internal	2020-02-13 11:28:44	2020-02-13 11:28:50	6.07	module load R; Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 22
+6	0	bigmem04.grace.hpc.yale.internal	2020-02-13 11:28:43	2020-02-13 11:28:50	6.14	module load R; Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 18
+4	0	bigmem04.grace.hpc.yale.internal	2020-02-13 11:28:44	2020-02-13 11:28:50	6.03	module load R; Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 16
+2	0	bigmem04.grace.hpc.yale.internal	2020-02-13 11:28:43	2020-02-13 11:28:50	6.23	module load R; Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 14
+3	0	bigmem04.grace.hpc.yale.internal	2020-02-13 11:28:43	2020-02-13 11:28:50	6.40	module load R; Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 15
+5	0	bigmem04.grace.hpc.yale.internal	2020-02-13 11:28:44	2020-02-13 11:28:50	6.36	module load R; Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 17
+1	0	bigmem03.grace.hpc.yale.internal	2020-02-13 11:28:44	2020-02-13 11:28:50	6.43	module load R; Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 13
+0	0	bigmem03.grace.hpc.yale.internal	2020-02-13 11:28:43	2020-02-13 11:28:50	6.73	module load R; Rscript --vanilla /ysm-gpfs/project/zhao/zy92/utmost_update/code/R/adjust_expression_gtex8.R 12

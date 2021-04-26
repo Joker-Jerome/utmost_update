@@ -1,0 +1,10 @@
+1	-9	p08r05n42.grace.hpc.yale.internal	2020-06-03 11:00:00	2020-06-03 11:05:34	333.78	Rscript --vanila /gpfs/project/zhao/zy92/utmost_update/utmost_update/code/R/model_training.R 1 2
+5	1	p08r06n34.grace.hpc.yale.internal	2020-06-03 11:00:00	2020-06-03 11:07:28	447.99	Rscript --vanila /gpfs/project/zhao/zy92/utmost_update/utmost_update/code/R/model_training.R 1 6
+2	0	p08r05n42.grace.hpc.yale.internal	2020-06-03 11:00:00	2020-06-03 11:08:54	533.56	Rscript --vanila /gpfs/project/zhao/zy92/utmost_update/utmost_update/code/R/model_training.R 1 3
+6	0	p08r06n34.grace.hpc.yale.internal	2020-06-03 11:00:00	2020-06-03 11:09:53	593.00	Rscript --vanila /gpfs/project/zhao/zy92/utmost_update/utmost_update/code/R/model_training.R 1 7
+3	0	p08r05n42.grace.hpc.yale.internal	2020-06-03 11:00:00	2020-06-03 11:12:00	719.91	Rscript --vanila /gpfs/project/zhao/zy92/utmost_update/utmost_update/code/R/model_training.R 1 4
+0	1	p08r05n42.grace.hpc.yale.internal	2020-06-03 10:59:58	2020-06-03 11:12:27	748.58	Rscript --vanila /gpfs/project/zhao/zy92/utmost_update/utmost_update/code/R/model_training.R 1 1
+4	0	p08r06n33.grace.hpc.yale.internal	2020-06-03 11:00:00	2020-06-03 11:13:17	796.67	Rscript --vanila /gpfs/project/zhao/zy92/utmost_update/utmost_update/code/R/model_training.R 1 5
+7	0	p08r06n34.grace.hpc.yale.internal	2020-06-03 11:00:00	2020-06-03 11:13:32	811.50	Rscript --vanila /gpfs/project/zhao/zy92/utmost_update/utmost_update/code/R/model_training.R 1 8
+9	0	p08r06n34.grace.hpc.yale.internal	2020-06-03 11:00:00	2020-06-03 11:14:08	847.66	Rscript --vanila /gpfs/project/zhao/zy92/utmost_update/utmost_update/code/R/model_training.R 1 10
+8	0	p08r06n34.grace.hpc.yale.internal	2020-06-03 11:00:00	2020-06-03 11:16:18	977.63	Rscript --vanila /gpfs/project/zhao/zy92/utmost_update/utmost_update/code/R/model_training.R 1 9
