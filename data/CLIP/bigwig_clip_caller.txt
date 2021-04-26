@@ -1,2 +1,2 @@
-track type=bigWig name=WildType smoothingWindow=4 color=123,100,50 autoScale=on viewLimits=1:200 visibility=full windowingFunction=maximum bigDataUrl=file:///Users/jerome/Projects/NASH/Xinshou/GSE56802_DDX21_WT_iCLIPseq.bw
-track type=bigWig name=DDX21_Mutant smoothingWindow=4 color=123,60,50 autoScale=on viewLimits=1:200 visibility=full windowingFunction=maximum bigDataUrl=file:///Users/jerome/Projects/NASH/Xinshou/GSE56802_DDX21_SAT_iCLIPseq.bw
+track type=bigWig name=WildType smoothingWindow=4 color=123,100,50 autoScale=on viewLimits=1:200 visibility=full windowingFunction=maximum bigDataUrl=https://github.com/Joker-Jerome/utmost_update/blob/master/data/CLIP/GSE56802_DDX21_WT_iCLIPseq.bw
+track type=bigWig name=DDX21_Mutant smoothingWindow=4 color=123,60,50 autoScale=on viewLimits=1:200 visibility=full windowingFunction=maximum bigDataUrl=https://github.com/Joker-Jerome/utmost_update/blob/master/data/CLIP/GSE56802_DDX21_SAT_iCLIPseq.bw
